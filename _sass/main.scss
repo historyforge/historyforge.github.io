@@ -51,12 +51,7 @@ header {
       }
     }
   }
-  & + .container-fluid {
-    padding: 0 40px 40px;
-    margin-top: 110px;
-  }
-
-  & + .container {
+  & + main {
     padding: 0 40px 40px;
     margin-top: 40px;
   }
@@ -64,14 +59,6 @@ header {
 
 .btn + .btn {
   margin-left: 8px;
-}
-
-.jumbotron {
-  background: white;
-  border-radius: 0;
-  color: rgba(26,26,26,.9);
-  p { margin: 0 0 1rem; }
-  .lead { margin: 0; font-size: 1.5rem; }
 }
 
 h2.text-center {
@@ -116,7 +103,7 @@ p {
 }
 
 .jumbotron {
-  background: white;
+  background: transparent;
   color: rgba(26,26,26,.9);
   padding: 40px;
   .lead { margin: 0; font-size: 1.5rem; }
@@ -127,7 +114,7 @@ p {
   justify-content: center;
   align-items: center;
   h1, h2, h3 {
-    padding: 10px 30px;
+    padding: 20px 50px;
     border-radius: 20px;
     color: white;
     background: rgba(0, 0, 0, 0.5);
