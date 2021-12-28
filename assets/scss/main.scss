@@ -1,0 +1,143 @@
+/*  Theme Variables  */
+
+$border-color: #dee2e6;
+$link-color: #298dcc;
+
+$breakpoints: (phone: 640px,
+        tablet: 768px,
+        desktop: 1024px) !default;
+
+@import "../../node_modules/include-media/dist/include-media";
+@import "bootstrap";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto';
+}
+
+a {
+  color: $link-color;
+}
+
+.clear {
+  clear:both;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+header {
+  nav.navbar.navbar-fixed {
+    z-index: 25;
+    box-shadow: 0 30px 30px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0;
+    background: white;
+    img {
+      height: 40px;
+      & + img {
+        height: 30px;
+        margin-left: 20px;
+      }
+    }
+  }
+  & + .container-fluid {
+    padding: 0 40px 40px;
+    margin-top: 110px;
+    //height: calc(100% - 110px);
+  }
+
+  & + .container {
+    padding: 0 40px 40px;
+    margin-top: 20px;
+    //height: calc(100% - 110px);
+  }
+}
+
+.btn + .btn {
+  margin-left: 8px;
+}
+
+.jumbotron {
+  background: white;
+  border-radius: 0;
+  color: rgba(26,26,26,.9);
+  p { margin: 0 0 1rem; }
+  .lead { margin: 0; font-size: 1.5rem; }
+}
+
+h2.text-center {
+  margin-bottom: 4rem;
+}
+
+p.text-center {
+  padding-top: 1.5rem;
+  a {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@include media('<tablet') {
+  h1 {
+    font-size: 2rem;
+  }
+  body > header nav.navbar.navbar-fixed {
+    height: auto;
+
+    .navbar-brand {
+      margin-right: 0;
+    }
+
+    img:first-of-type {
+      height: 30px;
+    }
+    img + img {
+      height: 20px;
+      margin-left: 4px;
+    }
+  }
+  body > header + .container {
+    padding: 0 20px 20px;
+    margin-top: 20px;
+  }
+}
+
+p {
+  margin:1em 0;
+}
+
+.jumbotron {
+  background: white;
+  color: rgba(26,26,26,.9);
+  padding: 40px;
+  .lead { margin: 0; font-size: 1.5rem; }
+}
+
+[data-parallax] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1, h2, h3 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
+
+img.img-responsive {
+  max-width: 100%;
+}

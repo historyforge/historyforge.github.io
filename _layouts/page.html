@@ -1,0 +1,27 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{{ page.class }}">
+
+<div class="layout-container">
+    {%- include header.html -%}
+
+    <main class="container" aria-label="Content" role="main">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+</div>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans:400" rel="stylesheet">
+
+</body>
+</html>
