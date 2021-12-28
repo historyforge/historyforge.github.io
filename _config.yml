@@ -45,18 +45,18 @@ include: ['_pages']
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-   - gulpfile.js
-   - package.json
-   - package-lock.json
-   - assets/scss/
+exclude:
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
+ - gulpfile.js
+ - package.json
+ - package-lock.json
+ - assets/scss/
