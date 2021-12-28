@@ -8,12 +8,6 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.0.0",
-    "node-sass": "^7.0.1"
-  },
   "dependencies": {
     "bootstrap": "^4.6.1",
     "include-media": "^1.4.10"

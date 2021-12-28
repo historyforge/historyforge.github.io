@@ -54,13 +54,11 @@ header {
   & + .container-fluid {
     padding: 0 40px 40px;
     margin-top: 110px;
-    //height: calc(100% - 110px);
   }
 
   & + .container {
     padding: 0 40px 40px;
-    margin-top: 20px;
-    //height: calc(100% - 110px);
+    margin-top: 40px;
   }
 }
 
@@ -92,7 +90,7 @@ p.text-center {
   h1 {
     font-size: 2rem;
   }
-  body > header nav.navbar.navbar-fixed {
+  body header nav.navbar.navbar-fixed {
     height: auto;
 
     .navbar-brand {
@@ -107,7 +105,7 @@ p.text-center {
       margin-left: 4px;
     }
   }
-  body > header + .container {
+  body header + .container {
     padding: 0 20px 20px;
     margin-top: 20px;
   }
