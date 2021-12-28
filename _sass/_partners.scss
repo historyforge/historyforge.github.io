@@ -1,0 +1,40 @@
+#partners {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    img {
+      position: absolute;
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      display: block;
+      z-index: 0;
+      opacity: 0.8;
+      transition: opacity 0.25s linear;
+    }
+    span {
+      display: block;
+      z-index: 1;
+      padding: 10px 30px;
+      border-radius: 20px;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    &:hover {
+      text-decoration: none;
+      img {
+        opacity: 1;
+      }
+    }
+  }
+}
