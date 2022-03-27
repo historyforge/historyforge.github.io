@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.6.1",
-    "include-media": "^1.4.10"
+    "bootstrap": "^4.6.1"
   }
 }
