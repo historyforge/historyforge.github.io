@@ -10,11 +10,26 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    border: 1px solid $border-color;
+    border-collapse: collapse;
+    &:nth-child(2) {
+      border-left: none;
+      border-bottom: none;
+    }
+    &:nth-child(3) {
+      border-bottom: none;
+    }
+    &:last-child {
+      border-left: none;
+    }
     img {
       position: absolute;
       object-fit: contain;
       object-position: center;
-      width: 100%;
+      min-width:100%;
+      max-width: 150%;
+      min-height: 100%;
+      max-height: 150%;
       display: block;
       z-index: 0;
       opacity: 0.8;
