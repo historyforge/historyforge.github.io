@@ -21,5 +21,16 @@ layout: default
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <p>The requested page could not be found. Since the Ithaca HistoryForge installation used to live at this address,
+     it's possible that we can take you where you were trying to go with this link:</p>
+     <p id="redirectLink"></p>
+
+  </div>
+
+  <script type="text/javascript">
+    const redirectUrl = `https://tompkins.historyforge.net${document.location.pathname}`;
+    const link = document.createElement("A");
+    link.textContent = redirectUrl;
+    link.href = redirectUrl;
+    document.getElementById("redirectLink").appendChild(link);
+  </script>
