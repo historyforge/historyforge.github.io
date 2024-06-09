@@ -125,8 +125,12 @@ project_links:
 
 - name: MapWarper
   links:
-  -name: HistoryForge MapWarper Manual
+  - name: HistoryForge MapWarper Manual
     url: https://docs.google.com/document/d/1mEgzMuOgNezgBwi-mAp0Blo6qPwcb5sa8llbF4mW4Ko
+
+- name: 1850 Census Transcriber Resources
+  links:
+  
     
 
 
