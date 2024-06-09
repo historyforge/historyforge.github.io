@@ -212,10 +212,21 @@ project_links:
     url: https://docs.google.com/document/d/1ZH0CvFUui8wmKkSrc4wOyLtS0Wey-cYZfAZnD3Om94U
   - name: HistoryForge 1940 Census Manual
     url: https://docs.google.com/document/d/1ONNUX9SS5qOX8Up0blD2uv-DXYtHRhh--orGfFUQl9Q
-  - name: How to Verify Occupation and Industry Codes on the 1940 Census
+  - name: How to Verify Occupation and Industry Codes on the 1940 CensusList of Questions Asked on the 1950 Census
     url: https://docs.google.com/document/d/1QNI_EVOPVdks6vChm7V1HJwlCnMsvZvx-_VbdlxYABQ
   - name: 1940 Census Self-Review Checklist
     url: https://docs.google.com/document/d/1IAWxHXG9NHze-M8Q3dt8KUFQj4OiMYP9Rl2mbh-4M6k
+
+- name: 1950 Census Transcriber Resources
+  links:
+  - name: List of Questions Asked on the 1950 Census
+    url: https://docs.google.com/document/d/1FLzRZlivq4DSFpV7OFv24kO1eSHYwM5Xs7Xp0vSA4Xg
+  - name: HistoryForge 1950 Census Manual
+    url: https://docs.google.com/document/d/1fnD8tAvCKE9vJS-b1hK4Oe5q_CV5R-WylWyX46vobZk
+  - name: How to Verify Occupation/Industry/Worker Class Codes on the 1950 Census
+    url: https://docs.google.com/spreadsheets/d/1GiWDPiKGyZZHLDxSG-ZCazRcwQ4E9cFoMGlDnXurL-4
+  - name: 1950 Census Self-Review Checklist
+    url: https://docs.google.com/document/d/1vqqO2gS8NWUpLEcfdnArxJLfr96OfrzIpLSV-Ulz-9I
   
   
     
