@@ -62,3 +62,24 @@ exclude:
  - assets/scss/
  - .idea/
 
+# Project Documentation Links
+project_links:
+- name: Transcription
+  links:
+  - name: Transcription Convention
+    url: https://docs.google.com/document/d/1MFZO9GkxSaQ0GJF3zrLP2TIjrlL9EIZ-3E5s1zaTS4Y
+  - name: "FamilySearch's Handwriting Helps: Alphabet (Secretary Hand)"
+    url: https://www.familysearch.org/indexing/help/handwriting#!/lang=en&title=Alphabet%20(Secretary%20Hand)
+
+- name: Buildings
+  links:
+  - name: Buildings Manual
+    url: https://docs.google.com/document/d/1PAUiZQKXMrJSVuU_HWU2z5dJHzBf-cszAvS7sw_UsJY
+
+- name: Admin Menu
+  links:
+  - name: Adding Photographs
+    url: https://docs.google.com/document/d/1N8n4TRJgRzTlv-aTHGHY8_g7_xddxoBTKejXbHs6cBU
+  - name: Controlled Vocabularies
+    url: https://docs.google.com/document/d/1tKe4AmiXytbWTb8H4__ayh9oQGZmS7K4VIbaQhtPXFc
+
