@@ -122,6 +122,11 @@ project_links:
     url: https://docs.google.com/document/d/1cguTJWvcDzMpWB6vinFGDRXNlNisZTKFaqn_pgliFzk
   - name: "How to HistoryForge: Using the Census to Explore Your Community's History"
     url: https://docs.google.com/document/d/1tvzjGZ7rkhhnnnLEsRVfobh9JwNx8djtzEnJ2rXvQlc
+
+- name: MapWarper
+  links:
+  -name: HistoryForge MapWarper Manual
+    url: https://docs.google.com/document/d/1mEgzMuOgNezgBwi-mAp0Blo6qPwcb5sa8llbF4mW4Ko
     
 
 
